@@ -1,0 +1,39 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 691f9f56-257c-4fb4-a486-846f8e318dbd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 125.73 35.56) (size 22.86 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid 94b2f902-e8d3-4596-a363-65eff4a6ec19)
+    (property "Sheetname" "HalfBridgePowerStage1" (at 125.73 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HalfBridgePowerStage.kicad_sch" (at 125.73 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PH_OUT" input (at 148.59 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ddc51014-23d5-4176-a806-bd2a1a707249)
+    )
+    (pin "PWM_HI" input (at 125.73 43.18 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a078a8ac-412e-412b-8e38-ec0bd1708c02)
+    )
+    (pin "PWM_LI" input (at 125.73 52.07 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7d4b40f6-f8e9-49db-9521-30d97606e3cb)
+    )
+    (instances
+      (project "Testplatine"
+        (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/e3a18dfa-81e3-4dea-a4b1-f822ba0d1cab" (page "7"))
+      )
+    )
+  )
+)

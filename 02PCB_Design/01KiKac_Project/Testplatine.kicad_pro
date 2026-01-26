@@ -520,11 +520,11 @@
       "HalfBridgePowerStage1"
     ],
     [
-      "ecc66008-931d-4f16-b87a-4b6f9e605672",
+      "c9320698-1ebe-4cbc-b9db-fecc56898676",
       "HalfBridgePowerStage2"
     ],
     [
-      "11fa8d29-d6dd-4a4b-8cc1-15fad3f84280",
+      "c1eb282b-0731-4867-ba47-13d12abc5578",
       "HalfBridgePowerStage3"
     ],
     [
@@ -533,7 +533,7 @@
     ],
     [
       "71441778-19c6-49de-8dce-f1083f9dacbc",
-      "connector"
+      "Bus_Connectors"
     ]
   ],
   "text_variables": {}

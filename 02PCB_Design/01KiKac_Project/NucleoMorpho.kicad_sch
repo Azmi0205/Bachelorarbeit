@@ -1537,7 +1537,7 @@
   (symbol (lib_id "Device:R") (at 153.67 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d7de15c-9b64-4b63-87db-53181c132e04)
-    (property "Reference" "R42" (at 153.67 90.17 90)
+    (property "Reference" "R41" (at 153.67 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 153.67 87.63 90)
@@ -1554,7 +1554,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R42") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -1666,7 +1666,7 @@
   (symbol (lib_id "power:GNDPWR") (at 149.86 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cd1ec98-bd9a-4417-af39-3e21362ab220)
-    (property "Reference" "#PWR067" (at 149.86 158.75 0)
+    (property "Reference" "#PWR068" (at 149.86 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 149.733 157.48 0)
@@ -1682,7 +1682,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1717,7 +1717,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 77.47 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b5f106e-b48c-4206-86c8-d5063d022d41)
-    (property "Reference" "JP2" (at 77.47 125.73 0)
+    (property "Reference" "JP1" (at 77.47 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_2_Bridged" (at 77.47 128.27 0)
@@ -1734,7 +1734,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "JP2") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -1743,7 +1743,7 @@
   (symbol (lib_id "Device:R") (at 99.06 125.73 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d77fa4b-ad71-4160-a91a-6617e9d5e5c4)
-    (property "Reference" "R43" (at 99.06 123.19 90)
+    (property "Reference" "R42" (at 99.06 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 99.06 125.73 90)
@@ -1760,7 +1760,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R43") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -1769,7 +1769,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 77.47 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5dfc689b-582e-47e4-a9d5-9030df3b387b)
-    (property "Reference" "JP1" (at 77.47 152.4 0)
+    (property "Reference" "JP4" (at 77.47 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_2_Bridged" (at 77.47 154.94 0)
@@ -1786,7 +1786,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "JP1") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -1821,7 +1821,7 @@
   (symbol (lib_id "power:GNDA") (at 191.77 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70213a1c-92ff-4093-ae9e-6fc3d593a5bf)
-    (property "Reference" "#PWR065" (at 191.77 97.79 0)
+    (property "Reference" "#PWR066" (at 191.77 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 191.77 95.25 0)
@@ -1837,7 +1837,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -1846,7 +1846,7 @@
   (symbol (lib_id "Device:R") (at 153.67 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 736e4d76-4bd5-4afb-a4bd-8723de23e814)
-    (property "Reference" "R41" (at 153.67 82.55 90)
+    (property "Reference" "R40" (at 153.67 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 153.67 85.09 90)
@@ -1863,7 +1863,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R41") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -2148,7 +2148,7 @@
   (symbol (lib_id "power:+3.3V") (at 160.02 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a36bef85-719e-4a3f-8d76-c331b3a22aaf)
-    (property "Reference" "#PWR080" (at 160.02 36.83 0)
+    (property "Reference" "#PWR065" (at 160.02 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 160.02 29.21 0)
@@ -2164,7 +2164,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -2225,7 +2225,7 @@
   (symbol (lib_id "power:GNDA") (at 45.72 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c827f9d4-d31d-4c3a-b77e-741082c4a2e0)
-    (property "Reference" "#PWR066" (at 45.72 114.3 0)
+    (property "Reference" "#PWR067" (at 45.72 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 45.72 111.76 0)
@@ -2241,7 +2241,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -2380,7 +2380,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 77.47 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0f1de51-66c4-4b5c-80b8-9aa98d60d521)
-    (property "Reference" "JP4" (at 77.47 134.62 0)
+    (property "Reference" "JP2" (at 77.47 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_2_Open" (at 77.47 137.16 0)
@@ -2397,7 +2397,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "JP4") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -2406,7 +2406,7 @@
   (symbol (lib_id "power:GNDA") (at 157.48 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fabb9439-6378-40d2-8137-b00988ee8ef6)
-    (property "Reference" "#PWR068" (at 157.48 160.02 0)
+    (property "Reference" "#PWR069" (at 157.48 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 157.48 157.48 0)
@@ -2422,7 +2422,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )

@@ -1003,7 +1003,7 @@
     (stroke (width 0) (type default))
     (uuid 3b745d26-f7de-46c0-89a2-9d7b8e3f6027)
   )
-  (wire (pts (xy 35.56 157.48) (xy 73.66 157.48))
+  (wire (pts (xy 35.56 133.35) (xy 73.66 133.35))
     (stroke (width 0) (type default))
     (uuid 3f89ac37-31fa-49fc-89df-86bc26e73abd)
   )
@@ -1071,10 +1071,6 @@
     (stroke (width 0) (type default))
     (uuid 7d1270d6-c060-4478-8f1f-a8eb2b0397f9)
   )
-  (wire (pts (xy 81.28 157.48) (xy 100.33 157.48))
-    (stroke (width 0) (type default))
-    (uuid 81e7c43f-fcd6-46ad-9e5f-5f427137295a)
-  )
   (wire (pts (xy 191.77 81.28) (xy 191.77 90.17))
     (stroke (width 0) (type default))
     (uuid 82e6aa56-49e9-4ea4-beb3-8c856a0e2fee)
@@ -1082,10 +1078,6 @@
   (wire (pts (xy 182.88 85.09) (xy 182.88 90.17))
     (stroke (width 0) (type default))
     (uuid 84bf74b6-edc5-44d7-b40e-4f5c9204dca6)
-  )
-  (wire (pts (xy 100.33 133.35) (xy 100.33 157.48))
-    (stroke (width 0) (type default))
-    (uuid 87d98453-f565-4188-8b84-8503d6c5f8ff)
   )
   (wire (pts (xy 104.14 95.25) (xy 105.41 95.25))
     (stroke (width 0) (type default))
@@ -1143,7 +1135,7 @@
     (stroke (width 0) (type default))
     (uuid b5b5304c-20b7-45fe-9e17-ee88169f1774)
   )
-  (wire (pts (xy 100.33 133.35) (xy 105.41 133.35))
+  (wire (pts (xy 81.28 133.35) (xy 105.41 133.35))
     (stroke (width 0) (type default))
     (uuid b840bf44-e00c-4c84-be95-e31e0483ac83)
   )
@@ -1243,7 +1235,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0fc94741-986f-4408-b202-4368040c6b82)
   )
-  (hierarchical_label "FDCAN_TX" (shape input) (at 35.56 157.48 180) (fields_autoplaced)
+  (hierarchical_label "FDCAN_TX" (shape input) (at 35.56 133.35 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 10997b47-7f2f-4afc-9a43-b7b3ed95e86b)
   )
@@ -1343,7 +1335,7 @@
   (symbol (lib_id "Device:R") (at 153.67 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d7de15c-9b64-4b63-87db-53181c132e04)
-    (property "Reference" "R40" (at 153.67 90.17 90)
+    (property "Reference" "R38" (at 153.67 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 153.67 87.63 90)
@@ -1360,7 +1352,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R40") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -1394,7 +1386,7 @@
   (symbol (lib_id "Device:R") (at 177.8 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21094e49-8aa4-47fa-8922-56f529fc03e8)
-    (property "Reference" "R36" (at 177.8 74.93 90)
+    (property "Reference" "R34" (at 177.8 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20R" (at 177.8 72.39 90)
@@ -1411,7 +1403,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R36") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -1420,7 +1412,7 @@
   (symbol (lib_id "Device:R") (at 50.8 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 233dca52-92ba-4c82-be2b-ed91c9770b31)
-    (property "Reference" "R34" (at 50.8 72.39 90)
+    (property "Reference" "R32" (at 50.8 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20R" (at 50.8 69.85 90)
@@ -1437,25 +1429,25 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R34") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 77.47 157.48 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 77.47 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 274d7a85-b06b-4c0e-a9f2-b272e2a3cbac)
-    (property "Reference" "R45" (at 77.47 154.94 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "0R" (at 77.47 157.48 90)
+    (property "Reference" "R41" (at 77.47 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 77.47 159.258 90)
+    (property "Value" "0R" (at 77.47 133.35 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 77.47 135.128 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 77.47 157.48 0)
+    (property "Datasheet" "~" (at 77.47 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid b51dfd2f-d6db-4048-b015-4743050cb800))
@@ -1463,7 +1455,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R45") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -1472,7 +1464,7 @@
   (symbol (lib_id "Device:R") (at 186.69 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38625f69-a5ec-4cf8-9db2-5aa41133b82b)
-    (property "Reference" "R35" (at 186.69 67.31 90)
+    (property "Reference" "R33" (at 186.69 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20R" (at 186.69 69.85 90)
@@ -1489,7 +1481,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R35") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -1523,7 +1515,7 @@
   (symbol (lib_id "Device:R") (at 153.67 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 479791a1-fcfc-475d-97a6-2f1d3d7ad7ac)
-    (property "Reference" "R30" (at 153.67 57.15 90)
+    (property "Reference" "R28" (at 153.67 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 153.67 59.69 90)
@@ -1540,7 +1532,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R30") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -1549,7 +1541,7 @@
   (symbol (lib_id "Device:R") (at 99.06 125.73 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d77fa4b-ad71-4160-a91a-6617e9d5e5c4)
-    (property "Reference" "R41" (at 99.06 123.19 90)
+    (property "Reference" "R39" (at 99.06 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 99.06 125.73 90)
@@ -1566,7 +1558,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R41") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -1575,7 +1567,7 @@
   (symbol (lib_id "Device:R") (at 77.47 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e374207-acfe-47ce-a89a-efdb1f665d6e)
-    (property "Reference" "R42" (at 77.47 128.27 90)
+    (property "Reference" "R40" (at 77.47 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 77.47 130.81 90)
@@ -1592,7 +1584,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R42") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1652,7 +1644,7 @@
   (symbol (lib_id "Device:R") (at 153.67 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 736e4d76-4bd5-4afb-a4bd-8723de23e814)
-    (property "Reference" "R39" (at 153.67 82.55 90)
+    (property "Reference" "R37" (at 153.67 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 153.67 85.09 90)
@@ -1669,7 +1661,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R39") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1678,7 +1670,7 @@
   (symbol (lib_id "Device:R") (at 153.67 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e603197-9ea9-4fbc-a9d5-51609e145cfe)
-    (property "Reference" "R32" (at 153.67 67.31 90)
+    (property "Reference" "R30" (at 153.67 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33R" (at 153.67 64.77 90)
@@ -1695,7 +1687,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R32") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2056,7 +2048,7 @@
   (symbol (lib_id "Device:R") (at 41.91 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d349e88a-1b46-463c-a677-dd89b72dfef5)
-    (property "Reference" "R33" (at 41.91 64.77 90)
+    (property "Reference" "R31" (at 41.91 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20R" (at 41.91 67.31 90)
@@ -2073,7 +2065,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R33") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2082,7 +2074,7 @@
   (symbol (lib_id "Device:R") (at 59.69 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d56adf17-436d-43a6-97ce-c12d66097223)
-    (property "Reference" "R37" (at 59.69 80.01 90)
+    (property "Reference" "R35" (at 59.69 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20R" (at 59.69 82.55 90)
@@ -2099,7 +2091,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R37") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -2108,7 +2100,7 @@
   (symbol (lib_id "Device:R") (at 68.58 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d958207b-0cb7-4b7c-aaca-24784f68b530)
-    (property "Reference" "R38" (at 68.58 87.63 90)
+    (property "Reference" "R36" (at 68.58 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20R" (at 68.58 85.09 90)
@@ -2125,7 +2117,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R38") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -2185,7 +2177,7 @@
   (symbol (lib_id "Device:R") (at 195.58 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fae9b9c8-97f1-41d9-a0ae-def316139ee7)
-    (property "Reference" "R31" (at 195.58 59.69 90)
+    (property "Reference" "R29" (at 195.58 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20R" (at 195.58 62.23 90)
@@ -2202,7 +2194,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "R31") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )

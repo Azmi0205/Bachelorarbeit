@@ -1593,7 +1593,7 @@
   (symbol (lib_id "Device:C") (at 182.88 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63d99467-d983-4247-a892-f8c61680d6bf)
-    (property "Reference" "C64" (at 185.42 80.01 0)
+    (property "Reference" "C70" (at 185.42 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 185.42 82.55 0)
@@ -1610,7 +1610,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "C64") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -1696,7 +1696,7 @@
   (symbol (lib_id "Device:C") (at 72.39 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93df408f-a108-4368-8ad4-7f31997517f0)
-    (property "Reference" "C69" (at 74.93 100.33 0)
+    (property "Reference" "C75" (at 74.93 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 74.93 102.87 0)
@@ -1713,7 +1713,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "C69") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
@@ -1894,7 +1894,7 @@
   (symbol (lib_id "Device:C") (at 173.99 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9948e55f-836d-48ac-891d-4b2368220e8e)
-    (property "Reference" "C65" (at 176.53 83.82 0)
+    (property "Reference" "C71" (at 176.53 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 176.53 86.36 0)
@@ -1911,7 +1911,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "C65") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -1920,7 +1920,7 @@
   (symbol (lib_id "Device:C") (at 191.77 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9daf2ed4-b43e-42c4-b3d2-8defdabbd8bb)
-    (property "Reference" "C63" (at 194.31 76.2 0)
+    (property "Reference" "C69" (at 194.31 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 194.31 78.74 0)
@@ -1937,7 +1937,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "C63") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -1971,7 +1971,7 @@
   (symbol (lib_id "Device:C") (at 45.72 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7b71662-bbe7-4f8f-8be9-dc5c67870032)
-    (property "Reference" "C66" (at 48.26 88.9 0)
+    (property "Reference" "C72" (at 48.26 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 48.26 91.44 0)
@@ -1988,7 +1988,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "C66") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -1997,7 +1997,7 @@
   (symbol (lib_id "Device:C") (at 54.61 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8a9089e-3ab3-4b9b-ab9d-9f53df0f3188)
-    (property "Reference" "C67" (at 57.15 92.71 0)
+    (property "Reference" "C73" (at 57.15 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 57.15 95.25 0)
@@ -2014,7 +2014,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "C67") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -2126,7 +2126,7 @@
   (symbol (lib_id "Device:C") (at 63.5 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc54e3ce-35ef-4f0f-bdda-e931443cc2c8)
-    (property "Reference" "C68" (at 66.04 96.52 0)
+    (property "Reference" "C74" (at 66.04 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 66.04 99.06 0)
@@ -2143,7 +2143,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ebab6d44-f8ac-40ef-9001-86e6207db3e6"
-          (reference "C68") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )

@@ -985,7 +985,7 @@
   (symbol (lib_id "Device:C") (at 120.65 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12d0bda0-6c78-4ad1-af7f-039ff06d8dbf)
-    (property "Reference" "C71" (at 123.19 54.61 0)
+    (property "Reference" "C77" (at 123.19 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 123.19 57.15 0)
@@ -1002,7 +1002,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/71441778-19c6-49de-8dce-f1083f9dacbc"
-          (reference "C71") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
     )
@@ -1129,7 +1129,7 @@
   (symbol (lib_id "Device:C") (at 102.87 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54925bd7-7f72-4527-af6f-64a5cc1defcb)
-    (property "Reference" "C70" (at 100.33 57.15 0)
+    (property "Reference" "C76" (at 100.33 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 100.33 54.61 0)
@@ -1146,7 +1146,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/71441778-19c6-49de-8dce-f1083f9dacbc"
-          (reference "C70") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
     )

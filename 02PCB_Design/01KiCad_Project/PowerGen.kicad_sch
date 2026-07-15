@@ -1298,6 +1298,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 1f923792-8d34-4d35-ae75-366ad0ad7047)
   )
+  (text_box "47uF Keramik-Kondensator in 1210 überhaupt erhältlich \nAlternativ 10µF kondensatorbank\n"
+    (at 241.3 64.77 0) (size 22.86 13.97)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 24b98cdd-8445-4426-9996-f223458c6d7a)
+  )
   (text_box "Bus Capacitance Calculation:\nC_{Bulk,min} > I_{ripple} / f_{PWM} / V_{ripple}\n=> C_{Bulk,min} > p_{ripple, I}*I_{Motor} / (f_{PWM} * p_{ripple, V} * V_{Supply})\n\n\nFor 35A, 35V Input and 25kHz Switching Frequency \n(using suggested Variances from TI Application Note):\nC_{Bulk,min} > 10% * 15A / (25kHz * 1% * 35V) = 172uF\n\n\nScale Factor k = 3\nC_{Bulk} = k * C_{Bulk,min}\nC_{Bulk} = 3 * 172uF = 514uF  \n"
     (at 24.13 140.97 0) (size 139.7 53.34)
     (stroke (width -0.0001) (type default) (color 0 0 0 1))

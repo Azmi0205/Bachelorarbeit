@@ -1,0 +1,26 @@
+Half-Bridge
+- Bei normalen Kondensatoren: Vias nicht ins Pad
+- Shunt GND kürzere pfade
+- Power "Bäume" vermeiden
+
+Power Gen
+- C5 und C11 lieber 1210 Ceramic?
+- Leistungstragende Verbindungen länger und dicker
+- Pin 4 eher nach den Kondensatoren abgreifen?
+
+Allgemein
+- Kopierungen des selben designs übertragen
+- 0603 Auch gut zu Löten
+- 33ohm eher für impedanzanpassung
+
+Sensor Sheet
+- Ethernet Stecker Geschirmt
+- Kupfer bei mounting holes vielleicht weg
+- spi nicht aufs backplane
+- twisted pair spi 
+- bottom läyer mit ground (schirmung)
+- 33 ohm näher an pin
+- möglichst alles auf top
+
+MCU Sheet
+- Sind schon 33 Ohm SPI widerständer da?

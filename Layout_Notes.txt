@@ -21,6 +21,10 @@ Sensor Sheet
 - bottom läyer mit ground (schirmung)
 - 33 ohm näher an pin
 - möglichst alles auf top
+- SPI MISO auch daisy chain
 
 MCU Sheet
 - Sind schon 33 Ohm SPI widerständer da?
+
+PWM LI_HI
+- Schmitt Trigger?

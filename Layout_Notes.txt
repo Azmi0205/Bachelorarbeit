@@ -28,3 +28,7 @@ MCU Sheet
 
 PWM LI_HI
 - Schmitt Trigger?
+
+Fragen an Leitner-Fischer
+- T4_3300 oder T3_3300?
+- Verzeichnisse vor oder nach Inhalt?

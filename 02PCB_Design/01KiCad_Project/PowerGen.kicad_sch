@@ -146,112 +146,6 @@
         )
       )
     )
-    (symbol "FCR7350R_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J3" (at -1.27 -8.89 90)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "FCR7350R" (at 2.54 -15.24 90)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Connector:Banana_Jack_1Pin" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "\n                        \n                            Banana Jack Connector Standard Banana Solder Red\n                        \n" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "MF" "Cliff" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Package" "None" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Price" "None" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "SnapEDA_Link" "https://www.snapeda.com/parts/FCR7350R/Cliff+Electronic+Components/view-part/?ref=snap" (at -1.27 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "MP" "FCR7350R" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Availability" "In Stock" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Check_prices" "https://www.snapeda.com/parts/FCR7350R/Cliff+Electronic+Components/view-part/?ref=eda" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (symbol "FCR7350R_1_0_0"
-        (rectangle (start -12.7 -5.08) (end 7.62 5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -5.08)
-            (xy -2.54 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy -2.54 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy -2.54 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy 12.7 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 -2.54)
-            (xy -2.54 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08)
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$1" (effects (font (size 1.016 1.016))))
-        )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$3" (effects (font (size 1.016 1.016))))
-        )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$4" (effects (font (size 1.016 1.016))))
-        )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$5" (effects (font (size 1.016 1.016))))
-        )
-      )
-      (symbol "FCR7350R_1_1_0"
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
     (symbol "MyKiCadLib:AP2114D" (in_bom yes) (on_board yes)
       (property "Reference" "U4" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -297,10 +191,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Description" "\n                        \n                            Banana Jack Connector Standard Banana Solder Red\n                        \n" (at 0 0 0)
+      (property "MF" "Cliff" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "MF" "Cliff" (at 0 0 0)
+      (property "Description" "\n                        \n                            Banana Jack Connector Standard Banana Solder Red\n                        \n" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
       (property "Package" "None" (at 0 0 0)
@@ -366,25 +260,9 @@
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08)
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$1" (effects (font (size 1.016 1.016))))
-        )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$3" (effects (font (size 1.016 1.016))))
-        )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$4" (effects (font (size 1.016 1.016))))
-        )
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
-          (name "P$1" (effects (font (size 1.016 1.016))))
-          (number "P$5" (effects (font (size 1.016 1.016))))
-        )
       )
       (symbol "FCR7350R_1_0"
-        (pin bidirectional line (at 17.78 0 180) (length 5.08) hide
+        (pin bidirectional line (at 17.78 0 180) (length 5.08)
           (name "P$1" (effects (font (size 1.016 1.016))))
           (number "1" (effects (font (size 1.016 1.016))))
         )
@@ -1493,7 +1371,7 @@
   (symbol (lib_id "power:GNDA") (at 190.5 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1667f7d5-7694-46bb-a602-5b5cb47d85c3)
-    (property "Reference" "#PWR023" (at 190.5 135.89 0)
+    (property "Reference" "#PWR024" (at 190.5 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 190.5 133.35 0)
@@ -1509,7 +1387,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1544,7 +1422,7 @@
   (symbol (lib_id "power:GNDPWR") (at 116.84 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 212241b8-98c0-438b-a223-13a8082ef473)
-    (property "Reference" "#PWR022" (at 116.84 128.27 0)
+    (property "Reference" "#PWR023" (at 116.84 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 116.713 127 0)
@@ -1560,60 +1438,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "FCR7350R_1") (lib_id "MyKiCadLib:FCR7350R") (at 105.41 40.64 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 271875a5-9f80-4c2c-973c-f035104c1e67)
-    (property "Reference" "J3" (at 96.52 39.37 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "FCR7350R" (at 90.17 43.18 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector:Banana_Jack_1Pin" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Datasheet" "" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MF" "Cliff" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Description" "\n                        \n                            Banana Jack Connector Standard Banana Solder Red\n                        \n" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Package" "None" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Price" "None" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "SnapEDA_Link" "https://www.snapeda.com/parts/FCR7350R/Cliff+Electronic+Components/view-part/?ref=snap" (at 110.49 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MP" "FCR7350R" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Availability" "In Stock" (at 105.41 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Check_prices" "https://www.snapeda.com/parts/FCR7350R/Cliff+Electronic+Components/view-part/?ref=eda" (at 109.22 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (pin "1" (uuid 4b9f0733-40a0-4041-9439-5bff58df512f))
-    (pin "P$1" (uuid add18c00-46ff-4bd4-8232-d53f01cbf0c9))
-    (pin "P$5" (uuid c116994e-bd54-46f2-810e-19b46ccc61a3))
-    (pin "P$3" (uuid a498c589-5d85-40a5-a440-bde19172e0b9))
-    (pin "P$4" (uuid 7f771275-a809-4117-add9-f0cff4298883))
-    (instances
-      (project "Testplatine"
-        (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "J3") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1674,7 +1499,7 @@
   (symbol (lib_id "power:+3.3V") (at 72.39 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a8f2a62-c108-4fa9-ae2c-d5467cf1aacd)
-    (property "Reference" "#PWR019" (at 72.39 110.49 0)
+    (property "Reference" "#PWR020" (at 72.39 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 72.39 101.6 0)
@@ -1690,7 +1515,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1699,7 +1524,7 @@
   (symbol (lib_id "power:+5V") (at 26.67 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ab1d926-3529-4600-944d-616499088c4b)
-    (property "Reference" "#PWR018" (at 26.67 110.49 0)
+    (property "Reference" "#PWR019" (at 26.67 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 26.67 101.6 0)
@@ -1715,7 +1540,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1802,7 +1627,7 @@
   (symbol (lib_id "power:GNDA") (at 49.53 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47d745a2-ee13-41a6-8f67-66b5f8c36b56)
-    (property "Reference" "#PWR024" (at 49.53 138.43 0)
+    (property "Reference" "#PWR025" (at 49.53 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 49.53 135.89 0)
@@ -1818,7 +1643,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1827,7 +1652,7 @@
   (symbol (lib_id "power:GNDPWR") (at 234.95 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4aed658c-408d-485f-9501-1a726d52dc55)
-    (property "Reference" "#PWR016" (at 234.95 72.39 0)
+    (property "Reference" "#PWR017" (at 234.95 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 234.823 71.12 0)
@@ -1843,7 +1668,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1930,7 +1755,7 @@
   (symbol (lib_id "power:GNDA") (at 161.29 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e3f998d-5336-4135-b812-ab9d71dd4dab)
-    (property "Reference" "#PWR015" (at 161.29 72.39 0)
+    (property "Reference" "#PWR016" (at 161.29 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 161.29 71.12 0)
@@ -1946,7 +1771,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2007,7 +1832,7 @@
   (symbol (lib_id "power:+24V") (at 140.97 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e4c8ca5-e7dc-4c23-ae2b-34eef155c34b)
-    (property "Reference" "#PWR012" (at 140.97 39.37 0)
+    (property "Reference" "#PWR013" (at 140.97 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 140.97 30.48 0)
@@ -2023,7 +1848,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2110,7 +1935,7 @@
   (symbol (lib_id "power:+24V") (at 43.18 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3b162d6-9080-43c9-9383-b0d6f9766859)
-    (property "Reference" "#PWR014" (at 43.18 63.5 0)
+    (property "Reference" "#PWR015" (at 43.18 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 43.18 54.61 0)
@@ -2126,7 +1951,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2135,7 +1960,7 @@
   (symbol (lib_id "power:+24V") (at 190.5 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bab18d2e-3f03-4939-97e8-19e89aeafe9b)
-    (property "Reference" "#PWR020" (at 190.5 111.76 0)
+    (property "Reference" "#PWR021" (at 190.5 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 190.5 104.14 0)
@@ -2151,7 +1976,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2212,7 +2037,7 @@
   (symbol (lib_id "power:+5V") (at 256.54 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c99b8d05-42b3-41f7-a54c-7bc6a939f07c)
-    (property "Reference" "#PWR013" (at 256.54 49.53 0)
+    (property "Reference" "#PWR014" (at 256.54 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 256.54 40.64 0)
@@ -2228,7 +2053,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2300,10 +2125,6 @@
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (pin "1" (uuid 80af49ae-0c12-46b1-8bb4-951aee1dd7aa))
-    (pin "P$1" (uuid cbd0db0c-4ec6-4e68-8592-72138e7ed2f8))
-    (pin "P$5" (uuid 7ab8f69b-4ee9-419c-9849-01b2be6c1551))
-    (pin "P$3" (uuid d4370de8-b301-41f5-accf-8a015af14c51))
-    (pin "P$4" (uuid 817dc681-d539-415b-8965-e290cb8f9a11))
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
@@ -2316,7 +2137,7 @@
   (symbol (lib_id "power:GNDA") (at 99.06 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5ddbbbc-89d6-49c9-81f4-3b78525c5099)
-    (property "Reference" "#PWR021" (at 99.06 128.27 0)
+    (property "Reference" "#PWR022" (at 99.06 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 99.06 127 0)
@@ -2332,7 +2153,7 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2394,7 +2215,7 @@
   (symbol (lib_id "power:GNDPWR") (at 105.41 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e948fcfb-87c1-45f2-91f4-4bebe1be9b57)
-    (property "Reference" "#PWR017" (at 105.41 81.28 0)
+    (property "Reference" "#PWR018" (at 105.41 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 105.283 80.01 0)
@@ -2410,7 +2231,56 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MyKiCadLib:FCR7350R") (at 105.41 40.64 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f005efe2-1254-4e42-b3b6-cd3addac0343)
+    (property "Reference" "J3" (at 111.76 39.37 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "FCR7350R" (at 111.76 41.91 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector:Banana_Jack_1Pin" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MF" "Cliff" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Banana Jack Connector Standard Banana Solder Red\n                        \n" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/FCR7350R/Cliff+Electronic+Components/view-part/?ref=snap" (at 111.76 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "FCR7350R" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/FCR7350R/Cliff+Electronic+Components/view-part/?ref=eda" (at 105.41 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (pin "1" (uuid 747aca02-e0c5-4324-976c-89fb0e86321e))
+    (instances
+      (project "Testplatine"
+        (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/19fd2576-88a8-46b2-b66c-f5674461b1c9"
+          (reference "J3") (unit 1)
         )
       )
     )

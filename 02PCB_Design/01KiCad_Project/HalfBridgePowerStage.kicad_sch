@@ -1176,7 +1176,7 @@
   (symbol (lib_id "power:+3.3V") (at 92.71 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226ac6cc-4a1a-4e88-866a-f2e4d82d7fa2)
-    (property "Reference" "#PWR035" (at 92.71 161.29 0)
+    (property "Reference" "#PWR036" (at 92.71 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 92.71 153.67 0)
@@ -1192,13 +1192,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
   (symbol (lib_id "power:+24V") (at 147.32 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22c75ce0-6db2-4469-a6da-a6acd58ea3f3)
-    (property "Reference" "#PWR027" (at 147.32 66.04 0)
+    (property "Reference" "#PWR028" (at 147.32 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 147.32 57.15 0)
@@ -1255,13 +1255,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1270,7 +1270,7 @@
   (symbol (lib_id "power:GNDA") (at 114.3 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30dfa767-0564-4529-8ea8-f0438d102f6d)
-    (property "Reference" "#PWR031" (at 114.3 96.52 0)
+    (property "Reference" "#PWR032" (at 114.3 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 114.3 93.98 0)
@@ -1286,13 +1286,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1333,7 +1333,7 @@
   (symbol (lib_id "power:GNDA") (at 137.16 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52a76197-0943-4097-bd52-d0b7456d844f)
-    (property "Reference" "#PWR034" (at 137.16 160.02 0)
+    (property "Reference" "#PWR035" (at 137.16 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 137.16 157.48 0)
@@ -1349,13 +1349,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -1364,7 +1364,7 @@
   (symbol (lib_id "power:GNDA") (at 121.92 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 533a3ead-913f-4bb7-91dc-6be9f2efa6a8)
-    (property "Reference" "#PWR026" (at 121.92 62.23 0)
+    (property "Reference" "#PWR027" (at 121.92 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 121.92 59.69 0)
@@ -1380,13 +1380,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -1465,7 +1465,7 @@
     (property "Value" "LMG2100R044RARR" (at 86.36 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RAR0016B-MFG" (at 86.36 74.93 0)
+    (property "Footprint" "MyFootprintLib:RAR0016B-MFG" (at 86.36 74.93 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 86.36 74.93 0)
@@ -1548,7 +1548,7 @@
   (symbol (lib_id "power:GNDA") (at 50.8 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84f2e6dc-acba-41a0-8e33-4d07b631ddd2)
-    (property "Reference" "#PWR029" (at 50.8 96.52 0)
+    (property "Reference" "#PWR030" (at 50.8 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 50.8 93.98 0)
@@ -1564,13 +1564,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -1579,7 +1579,7 @@
   (symbol (lib_id "power:GNDA") (at 106.68 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b1ecb9f-5be3-4843-b7a8-616e51c3f8bd)
-    (property "Reference" "#PWR033" (at 106.68 153.67 0)
+    (property "Reference" "#PWR034" (at 106.68 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 106.68 151.13 0)
@@ -1595,13 +1595,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -1610,7 +1610,7 @@
   (symbol (lib_id "power:+3.3V") (at 82.55 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d95e309-6074-4c1d-bfac-0681eae15e49)
-    (property "Reference" "#PWR032" (at 82.55 139.7 0)
+    (property "Reference" "#PWR033" (at 82.55 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 82.55 132.08 0)
@@ -1626,13 +1626,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -1769,7 +1769,7 @@
   (symbol (lib_id "power:+5V") (at 110.49 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a328c1aa-1955-455c-8815-59ecc9e4adcf)
-    (property "Reference" "#PWR025" (at 110.49 46.99 0)
+    (property "Reference" "#PWR026" (at 110.49 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 110.49 38.1 0)
@@ -1785,13 +1785,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -1928,7 +1928,7 @@
   (symbol (lib_id "power:GNDA") (at 92.71 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da2023f3-0b4c-4295-9443-e63fce3a96a7)
-    (property "Reference" "#PWR037" (at 92.71 176.53 0)
+    (property "Reference" "#PWR038" (at 92.71 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 92.71 173.99 0)
@@ -1944,13 +1944,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -2055,7 +2055,7 @@
   (symbol (lib_id "power:GNDA") (at 82.55 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e81e8669-15c0-4bf0-919b-933de293706a)
-    (property "Reference" "#PWR036" (at 82.55 168.91 0)
+    (property "Reference" "#PWR037" (at 82.55 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 82.55 166.37 0)
@@ -2071,13 +2071,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -2252,7 +2252,7 @@
   (symbol (lib_id "power:GNDPWR") (at 204.47 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7b24d17-cddb-4251-ac5e-0173a4c896bd)
-    (property "Reference" "#PWR028" (at 204.47 83.82 0)
+    (property "Reference" "#PWR029" (at 204.47 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 204.343 82.55 0)
@@ -2268,13 +2268,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "power:GNDPWR") (at 105.41 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd3eb8a2-16e5-40b3-b31a-9191f7a281e6)
-    (property "Reference" "#PWR030" (at 105.41 95.25 0)
+    (property "Reference" "#PWR031" (at 105.41 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 105.283 93.98 0)
@@ -2331,13 +2331,13 @@
     (instances
       (project "Testplatine"
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/ef925562-4f6e-4d09-9dbd-a7f9888d3bad"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c9320698-1ebe-4cbc-b9db-fecc56898676"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
         (path "/de27a806-41f8-462d-8678-2476d523bbd9/a9fc49c7-f356-4c2b-bdd5-d12f8bcc20f7/c1eb282b-0731-4867-ba47-13d12abc5578"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )

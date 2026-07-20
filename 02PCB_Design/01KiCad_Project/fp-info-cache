@@ -1,4 +1,4 @@
-22657601205780365
+22661186156456695
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65359,12 +65359,12 @@ FCR7350
 5
 5
 MyFootprintLib
-IC_LMG2100R044RARR
+FCR7350_1
 
 
 0
-32
-32
+5
+5
 MyFootprintLib
 MODULE_NUCLEO-G431RB
 
@@ -65372,6 +65372,20 @@ MODULE_NUCLEO-G431RB
 0
 112
 112
+MyFootprintLib
+NucleoCN7CN10
+
+
+0
+76
+76
+MyFootprintLib
+RAR0016B-MFG
+
+XLMG2100R044RARR 
+0
+17
+17
 MyFootprintLib
 SAMTEC_MTSW-104-22-L-D-265-RA
 
@@ -65391,8 +65405,8 @@ Wurth_634008_RJ45
 
 
 0
-0
-0
+10
+9
 MyFootprintLib
 XDCR_ICM-40609-D
 

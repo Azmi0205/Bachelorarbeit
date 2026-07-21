@@ -1391,7 +1391,7 @@
     (property "Reference" "J7" (at 110.49 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RJ45-8N-B" (at 110.49 121.92 0)
+    (property "Value" "Wurth-634008" (at 110.49 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "MyFootprintLib:Wurth_634008_RJ45" (at 110.49 137.16 0)

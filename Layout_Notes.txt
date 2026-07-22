@@ -12,9 +12,8 @@ Strukturbesprechung
 - Zeitplan Bachelorarbeit
 
 Besprechung
-- Shoot Through Protection für Halbbrücke (Siehe Eval-Board)
+- Kühlkörper
 - Verpolungsschutz, Charge Pump IC LTC4359 + Power-NMOS - Through Hole
-- SW Out Power Entzerring/Length Matching (Mittlere halbbrücke "herausziehen", Buck Converter mehr nach "links")
 - Alles Freie mit Ground Fluten
 - 24 V Plane erweitern
 - 30 A Fuse (von 24V stecker-Fläche auf 24V plane)
@@ -29,3 +28,11 @@ Antworten
 - Elkos durch Tantal Ersetzen -> Üblicher in der Luftfahrt (T55D477M004C0012)
 	-> Weniger gut gegen Spannungsspitzen
 	-> Hier einfach nicht nötig
+
+- Shoot Through Protection für Halbbrücke (Siehe Eval-Board)
+	-> Eval Board Lösung erzeugt "nur" dead time (Verzögerte Einschaltung)
+	-> Bei G431RB Bereits im Motor Control Timer
+		-> Die Dead-Time wird deterministisch im Timer erzeugt
+		-> Es gibt keine Abhängigkeit von RC-Toleranzen, Alterung oder Temperatur
+		-> Hardware-Interlock innerhalb des Timers (CH1 und CH1N)
+		-> BKIN hardware Komperator erlaubt sofortiges abschalten

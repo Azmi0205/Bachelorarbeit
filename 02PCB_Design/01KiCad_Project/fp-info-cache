@@ -1,4 +1,4 @@
-22659401788242021
+22661202248341119
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65357,7 +65357,7 @@ FCR7350
 
 0
 5
-5
+1
 MyFootprintLib
 MODULE_NUCLEO-G431RB
 
@@ -65393,6 +65393,13 @@ SOP65P640X120-14N
 0
 14
 14
+MyFootprintLib
+Wurth Elektronik 2365 Printklemme
+Terminal Block Phoenix MKDS-3-3-5.08, 3 pins, pitch 5.08mm, size 15.2x11.2mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/2138224.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-3-3-5.08 pitch 5.08mm size 15.2x11.2mm^2 drill 1.3mm pad 2.6mm
+0
+3
+3
 MyFootprintLib
 Wurth_634008_RJ45
 

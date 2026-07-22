@@ -1,9 +1,5 @@
-PWM LI_HI
-- Schmitt Trigger?
-
 Sensorless
 - Sternpunkt zwischen motorphasen notwendig?
-
 
 Fragen an Leitner-Fischer
 - T4_3300 oder T3_3300?
@@ -13,6 +9,23 @@ Fragen an Leitner-Fischer
 Strukturbesprechung
 - Leitner Fischer fragen: subsections drinnen lassen oder eher bei section lassen?
 - Theoretical Background, State if the Art, Methodology zusammenfassen?
-- Bill of Material
-- Kostenüberschlag machen
 - Zeitplan Bachelorarbeit
+
+Besprechung
+- Shoot Through Protection für Halbbrücke (Siehe Eval-Board)
+- Verpolungsschutz, Charge Pump IC LTC4359 + Power-NMOS - Through Hole
+- SW Out Power Entzerring/Length Matching (Mittlere halbbrücke "herausziehen", Buck Converter mehr nach "links")
+- Alles Freie mit Ground Fluten
+- 24 V Plane erweitern
+- 30 A Fuse (von 24V stecker-Fläche auf 24V plane)
+
+Antworten
+- Induktive Spitzen durch schaltvorgänge im Motor -> Ggf. Pad für TVS-Diode; size SMA; Switch Node
+	-> Passiver Kurzschluss: Strom wird über Body-Dioden zurück in den Zwischenkreis gespeist
+		-> Zwischenkreiskondensatoren Laden sich auf
+	-> Aktiver Kurzschluss: Strom zirkuliert im Inverterkreis 
+		-> Parasitäre Widerstände verheizen Energie
+
+- Elkos durch Tantal Ersetzen -> Üblicher in der Luftfahrt (T55D477M004C0012)
+	-> Weniger gut gegen Spannungsspitzen
+	-> Hier einfach nicht nötig

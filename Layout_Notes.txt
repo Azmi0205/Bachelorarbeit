@@ -13,10 +13,6 @@ Strukturbesprechung
 
 Besprechung
 - Kühlkörper
-- Verpolungsschutz, Charge Pump IC LTC4359 + Power-NMOS - Through Hole
-- Alles Freie mit Ground Fluten
-- 24 V Plane erweitern
-- 30 A Fuse (von 24V stecker-Fläche auf 24V plane)
 
 Antworten
 - Induktive Spitzen durch schaltvorgänge im Motor -> Ggf. Pad für TVS-Diode; size SMA; Switch Node
@@ -36,3 +32,7 @@ Antworten
 		-> Es gibt keine Abhängigkeit von RC-Toleranzen, Alterung oder Temperatur
 		-> Hardware-Interlock innerhalb des Timers (CH1 und CH1N)
 		-> BKIN hardware Komperator erlaubt sofortiges abschalten
+
+- 30 A Fuse (von 24V stecker-Fläche auf 24V plane)
+	-> Schwer was passendes zu finden
+	-> Hardware Komparator sowieso schneller

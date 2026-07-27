@@ -1786,7 +1786,7 @@
     (property "Value" "L6982C50DR" (at 205.105 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm" (at 209.55 35.56 0)
+    (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 209.55 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 209.55 35.56 0)

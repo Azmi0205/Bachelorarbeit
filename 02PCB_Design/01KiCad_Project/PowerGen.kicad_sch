@@ -2916,7 +2916,7 @@
     (property "Reference" "Q1" (at 85.09 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AUIRFS4310ZTRL" (at 85.09 33.02 90)
+    (property "Value" "IPB020N10N5" (at 85.09 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TO-263-2" (at 87.63 34.29 0)

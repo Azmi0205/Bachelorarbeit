@@ -1,13 +1,8 @@
 Fragen an Leitner-Fischer
-- T4_3300 oder T3_3300?
-- Verzeichnisse vor oder nach Inhalt?
-- Ist ein Summary Chapter notwendig?
+- T3_3300
+- Ist ein Summary Chapter -> Kritischer bewerten + einordnung notwendig?
 - Forschungsfragen + Hypothesen rein?
+- Inhaltsverzeichnis nur auf eine seite?
 
 Strukturbesprechung
-- Theoretical Background, State if the Art, Methodology zusammenfassen?
-- Zeitplan Bachelorarbeit
-
-Besprechung
-- Kühlkörper
-- BOM Vorlage Tizian
+- Theoretical Background, State of the Art, Methodology zusammenfassen?

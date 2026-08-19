@@ -1,0 +1,76 @@
+%
+% Expected folder layout:
+%   <project_dir>/
+%       plot_pico_amplitudes.m
+%       /
+%           file1.mat
+%           file2.mat
+%           file3.mat
+%           file4.mat
+%           file5.mat
+%
+% Each .mat file is assumed to contain (typical PicoScope MATLAB export):
+%   A          - amplitude/voltage vector (channel A)
+%   Tinterval  - sample spacing in seconds
+
+clear; clc; close all;
+
+%% ---- Configuration ----
+scriptDir = fileparts(matlab.desktop.editor.getActiveFilename); % fallback below if run without editor
+if isempty(scriptDir)
+    scriptDir = pwd; % fallback if not run from the MATLAB editor
+end
+dataDir = fullfile(scriptDir, 'PicoSpeedDecay');
+
+if ~isfolder(dataDir)
+    error('Data folder not found: %s', dataDir);
+end
+
+matFiles = dir(fullfile(dataDir, '*.mat'));
+
+if isempty(matFiles)
+    error('No .mat files found in %s', dataDir);
+end
+
+nFiles = numel(matFiles);
+if nFiles ~= 5
+    warning('Expected 5 .mat files but found %d. Proceeding with what is available.', nFiles);
+end
+
+%% ---- Load data and plot ----
+figure('Name', 'Pico Amplitude Traces', 'NumberTitle', 'off', 'Color', 'w');
+
+for k = 1:nFiles
+    fPath = fullfile(dataDir, matFiles(k).name);
+    S = load(fPath);
+
+    % --- Extract amplitude vector "A" ---
+    if ~isfield(S, 'A')
+        warning('File "%s" has no variable "A" — skipping.', matFiles(k).name);
+        continue;
+    end
+    A = double(S.A(:)); % ensure column vector, double precision
+
+    % --- Extract sample interval ---
+    if isfield(S, 'Tinterval')
+        Tinterval = double(S.Tinterval);
+    else
+        error('File "%s" has no "Tinterval" variable needed to build the time axis.', matFiles(k).name);
+    end
+
+    % --- Build time vector ---
+    t = (0:numel(A)-1)' * Tinterval;
+
+    % --- Plot in the corresponding subplot ---
+    subplot(5, 1, k);
+    plot(t, A, 'LineWidth', 1);
+    grid on;
+    ylabel('Amplitude (V)');
+    title(matFiles(k).name, 'Interpreter', 'none');
+
+    if k == nFiles
+        xlabel('Time (s)');
+    end
+end
+
+sgtitle('Amplitude vs. Time for Exported Pico Channels');

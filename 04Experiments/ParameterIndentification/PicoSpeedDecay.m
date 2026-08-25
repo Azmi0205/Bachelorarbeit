@@ -8,7 +8,7 @@ smoothSpan = 5;                  % Moving-average smoothing window, in samples
 J = 1.29 * 10^-4;                 % Rotor inertia
 
 plotSingleFileOnly = true;       % true: plot one file, false: plot all files
-plotFileIndex = 2;                % Index of the file to plot
+plotFileIndex = 3;                % Index of the file to plot
 
 %% ---- Locate data folder ----
 scriptDir = fileparts(matlab.desktop.editor.getActiveFilename);
@@ -279,7 +279,7 @@ for k = 1:nFiles
     ylim([-2.5 2.5]);
 
     grid on;
-    ylabel('V_{LL}');
+    ylabel('U_{LL} (V)');
 
     title(sprintf('selected %s, minimum spacing = %.6g s', ...
         selectedPeakType, ...

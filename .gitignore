@@ -1,1 +1,5 @@
 *.mldatx
+**/slprj/
+**/Testplatine-backups/
+*.slc
+Notes.txt

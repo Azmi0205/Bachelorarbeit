@@ -3,3 +3,6 @@ TODO:
 - Gleichungen von \[a+b=c\] auf \begin{equation}.
 - Tabellen richtig formattieren mit \raggedright und so.
 - Schauen ob die worte "Control Quantity" und "Setpoint" richtig verwendet wurden.
+- Motor Modell angepasst -> Bilder anpassen
+- Vector Output Limiter Raus -> Raus aus dem anhang + FOC modell
+- Invertierungen beim Sinusoidal Commutation modell raus

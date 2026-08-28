@@ -1,52 +1,53 @@
-function fig = plotLoggedSignal3x1(logsout, signalNamesGrid, varargin)
-%PLOTLOGGEDSIGNAL3X1 Plot logged Simulink signals in a 3x1 tiled layout,
-%thesis-style. Fully self-contained (no other files required).
+function fig = plotLoggedSignal1x2(logsout, signalNamesGrid, varargin)
+%PLOTLOGGEDSIGNAL1X2 Plot logged Simulink signals in a 1x2 tiled layout
+%(side by side), thesis-style. Fully self-contained (no other files
+%required).
 %
-%   plotLoggedSignal3x1(out.logsout, {'Sin_wm','Sin_Te','Sin_ia'})
-%   plotLoggedSignal3x1(out.logsout, {{'Sin_wm','Sin_wm_ref'}, 'Sin_Te', ...
+%   plotLoggedSignal1x2(out.logsout, {'Sin_wm','Sin_Te'})
+%   plotLoggedSignal1x2(out.logsout, {{'Sin_wm','Sin_wm_ref'}, ...
 %                                      {'Sin_ia','Sin_ib','Sin_ic'}})
 %
-%   signalNamesGrid must have exactly 3 cells, filled row-major into the
-%   grid: {row1, row2, row3}. Each cell can be a single char/string
+%   signalNamesGrid must have exactly 2 cells, filled row-major into the
+%   grid: {col1, col2}. Each cell can be a single char/string
 %   signal name, or a cell array of char/string names to overlay
 %   multiple signals in that tile.
 %
-%   All three tiles share ONE common x-axis range. Each tile has its own
-%   y-axis range (one tile per row, so no y-axis sharing across tiles).
-%   If 'XLim'/'YLim' are left empty, the ranges are computed
+%   Both tiles share ONE common x-axis range. Each tile has its own
+%   y-axis range (one tile per column, so no y-axis sharing across
+%   tiles). If 'XLim'/'YLim' are left empty, the ranges are computed
 %   automatically from the tiles' auto-scaled data ranges; if given
 %   explicitly, they are applied directly.
 %
 %   Optional name-value pairs:
-%     'XLabel'         - 1x3 cell array of LaTeX x-axis labels (per tile).
+%     'XLabel'         - 1x2 cell array of LaTeX x-axis labels (per tile).
 %                        Use [] or '' entries to leave a tile without an
 %                        x-axis label text (default: no labels)
-%     'YLabel'         - 1x3 cell array of LaTeX y-axis labels (per tile).
+%     'YLabel'         - 1x2 cell array of LaTeX y-axis labels (per tile).
 %                        Use [] or '' entries to leave a tile without a
 %                        y-axis label text (default: no labels)
-%     'Title'          - 1x3 cell array of LaTeX tile titles (per tile).
+%     'Title'          - 1x2 cell array of LaTeX tile titles (per tile).
 %                        Use [] or '' entries to leave a tile untitled
 %                        (default: no titles)
-%     'Legend'         - 1x3 cell array of cell arrays of LaTeX legend
+%     'Legend'         - 1x2 cell array of cell arrays of LaTeX legend
 %                        labels (per tile)
-%     'XLim'           - single [xmin xmax] applied to all three tiles
+%     'XLim'           - single [xmin xmax] applied to both tiles
 %                        (default: [] = auto, computed from the data)
-%     'YLim'           - 1x3 cell array {yLimTile1, yLimTile2, yLimTile3},
+%     'YLim'           - 1x2 cell array {yLimTile1, yLimTile2},
 %                        each either [ymin ymax] or [] for auto
-%                        (default: {[],[],[]})
-%     'ShowXTickLabels'- 1x3 logical array; false hides only the numeric
+%                        (default: {[],[]})
+%     'ShowXTickLabels'- 1x2 logical array; false hides only the numeric
 %                        tick labels on that tile's x-axis. The axis
 %                        label text (set via 'XLabel') is unaffected
 %                        (default: all true)
-%     'ShowYTickLabels'- 1x3 logical array; false hides only the numeric
+%     'ShowYTickLabels'- 1x2 logical array; false hides only the numeric
 %                        tick labels on that tile's y-axis. The axis
 %                        label text (set via 'YLabel') is unaffected
 %                        (default: all true)
 %     'ExportName'     - filename (without extension) for PDF export.
 %                        If empty, no export is performed. (default: '')
-    nTiles = 3;
+    nTiles = 2;
     if numel(signalNamesGrid) ~= nTiles
-        error('signalNamesGrid must contain exactly %d cells (3x1, row-major).', nTiles);
+        error('signalNamesGrid must contain exactly %d cells (1x2, row-major).', nTiles);
     end
     signalNamesGrid = normalizeTileSignals(signalNamesGrid);
     p = inputParser;
@@ -55,31 +56,31 @@ function fig = plotLoggedSignal3x1(logsout, signalNamesGrid, varargin)
     addParameter(p, 'Title',  cell(1,nTiles), @iscell);
     addParameter(p, 'Legend', cell(1,nTiles), @iscell);
     addParameter(p, 'XLim',   [], @(x) isnumeric(x) && (isempty(x) || numel(x)==2));
-    addParameter(p, 'YLim',   {[], [], []}, @(x) iscell(x) && numel(x)==3);
+    addParameter(p, 'YLim',   {[], []}, @(x) iscell(x) && numel(x)==2);
     addParameter(p, 'ShowXTickLabels', true(1,nTiles), @(x) islogical(x) && numel(x)==nTiles);
     addParameter(p, 'ShowYTickLabels', true(1,nTiles), @(x) islogical(x) && numel(x)==nTiles);
     addParameter(p, 'ExportName', '', @(x) ischar(x) || isstring(x));
     parse(p, varargin{:});
     style = defaultPlotStyle();
-    fig = figure('Color','w','Units','centimeters','Position',[1 -1 30 44]);
-    t_layout = tiledlayout(fig, 3, 1, 'TileSpacing','compact','Padding','compact');
-    rows = {1, 2, 3};
+    fig = figure('Color','w','Units','centimeters','Position',[1 -1 60 20]);
+    t_layout = tiledlayout(fig, 1, 2, 'TileSpacing','compact','Padding','compact');
+    cols = {1, 2};
     axesArr = gobjects(1, nTiles);
     for k = 1:nTiles
         ax = nexttile(t_layout);
         axesArr(k) = ax;
-        rowIdx = k;
+        colIdx = k;
         plotSignalsOnAxes(ax, logsout, signalNamesGrid{k}, style, ...
             getTileOpt(p.Results.XLabel, k), ...
             getTileOpt(p.Results.YLabel, k), ...
             getTileOpt(p.Results.Title, k), ...
             getTileOpt(p.Results.Legend, k), ...
             p.Results.XLim, ...
-            p.Results.YLim{rowIdx}, ...
+            p.Results.YLim{colIdx}, ...
             p.Results.ShowXTickLabels(k), ...
             p.Results.ShowYTickLabels(k));
     end
-    % --- Ensure a single common x limit across all three tiles ---
+    % --- Ensure a single common x limit across both tiles ---
     if isempty(p.Results.XLim)
         xlAll = zeros(nTiles, 2);
         for k = 1:nTiles
@@ -90,17 +91,17 @@ function fig = plotLoggedSignal3x1(logsout, signalNamesGrid, varargin)
         commonXLim = p.Results.XLim;
     end
     set(axesArr, 'XLim', commonXLim);
-    % --- Ensure each tile's y limit (one tile per row, so per-tile only) ---
-    for r = 1:numel(rows)
-        idx = rows{r};
-        if isempty(p.Results.YLim{r})
-            ylRow = zeros(numel(idx), 2);
+    % --- Ensure each tile's y limit (one tile per column, so per-tile only) ---
+    for c = 1:numel(cols)
+        idx = cols{c};
+        if isempty(p.Results.YLim{c})
+            ylCol = zeros(numel(idx), 2);
             for j = 1:numel(idx)
-                ylRow(j,:) = ylim(axesArr(idx(j)));
+                ylCol(j,:) = ylim(axesArr(idx(j)));
             end
-            commonYLim = [min(ylRow(:,1)), max(ylRow(:,2))];
+            commonYLim = [min(ylCol(:,1)), max(ylCol(:,2))];
         else
-            commonYLim = p.Results.YLim{r};
+            commonYLim = p.Results.YLim{c};
         end
         set(axesArr(idx), 'YLim', commonYLim);
     end
@@ -109,10 +110,10 @@ function fig = plotLoggedSignal3x1(logsout, signalNamesGrid, varargin)
     legends = findall(fig,'Type','Legend');
     set(legends,'LineWidth',1.5);
     set(fig,'PaperUnits','centimeters');
-    set(fig,'PaperSize',[30 44]);
-    set(fig,'PaperPosition',[0 0 30 44]);
+    set(fig,'PaperSize',[40 18]);
+    set(fig,'PaperPosition',[0 0 40 18]);
     if ~isempty(p.Results.ExportName)
-        exportgraphics(fig, [char(p.Results.ExportName) '_3x1.pdf'], 'ContentType','vector');
+        exportgraphics(fig, [char(p.Results.ExportName) '_1x2.pdf'], 'ContentType','vector');
     end
 end
 function style = defaultPlotStyle()
@@ -122,11 +123,11 @@ function style = defaultPlotStyle()
                     0.10 0.65 0.20;   % green
                     0.90 0.55 0.10;   % orange
                     0.55 0.10 0.75];  % purple
-    style.lw       = 1.5;
-    style.fs_axis  = 17;
-    style.fs_leg   = 17;
-    style.fs_label = 20;
-    style.fs_title = 20;
+    style.lw       = 3;
+    style.fs_axis  = 25;
+    style.fs_leg   = 25;
+    style.fs_label = 30;
+    style.fs_title = 30;
 end
 function tiles = normalizeTileSignals(signalNamesGrid)
 %NORMALIZETILESIGNALS Ensure each tile's signal spec is a cell array of

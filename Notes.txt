@@ -5,4 +5,7 @@ TODO:
 - Schauen ob die worte "Control Quantity" und "Setpoint" richtig verwendet wurden.
 - Motor Modell angepasst -> Bilder anpassen
 - Vector Output Limiter Raus -> Raus aus dem anhang + FOC modell
+- Strombegrenzer + windup protection rein.
 - Invertierungen beim Sinusoidal Commutation modell raus
+- OL3 gibt nicht wirklich Maximum Current Operation an (imag, statt idc), eher High current
+- Gleichung für idc in Theorie

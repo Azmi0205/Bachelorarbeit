@@ -1,0 +1,15 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:79:13:MCboot	2
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:255:13:TSK_SetChargeBootCapDelayM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:266:13:TSK_SetBrakeDelayM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:277:13:TSK_SetOTFDetectionDelayM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:288:13:TSK_ChargeBootCapDelayHasElapsedM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:304:13:TSK_SetStopPermanencyTimeM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:315:13:TSK_StopPermanencyTimeHasElapsedM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:331:13:TSK_BrakeDelayHasElapsedM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:347:13:TSK_OTFDetectionDelayHasElapsedM1	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:385:13:TSK_SafetyTask_PWMOFF	3
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:362:13:TSK_SafetyTask	2
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:150:13:MC_RunMotorControlTasks	9
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:443:13:TSK_HardwareFaultTask	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:456:13:UI_HandleStartStopButton_cb	2
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks.c:474:13:mc_lock_pins	1

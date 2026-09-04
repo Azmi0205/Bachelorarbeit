@@ -1,0 +1,4 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mcp.c:58:9:RI_SetRegCommandParser	10
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mcp.c:161:9:RI_GetRegCommandParser	5
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mcp.c:227:6:MCP_ReceivedPacket	19
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mcp.c:413:9:MCP_RegisterCallBack	2

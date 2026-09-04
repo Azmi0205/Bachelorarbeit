@@ -1,0 +1,12 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:117:13:RUC_Init	4	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:171:13:RUC_Clear	24	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:233:13:RUC_OTF_Exec	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:513:13:RUC_Exec	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:580:9:RUC_IsAlignStageNow	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:620:13:RUC_FirstAccelerationStageReached	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:653:13:RUC_SetPhaseDurationms	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:677:13:RUC_SetPhaseFinalMecSpeedUnit	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:700:13:RUC_SetPhaseFinalTorque	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:723:17:RUC_GetPhaseDurationms	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:739:16:RUC_GetPhaseFinalMecSpeedUnit	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/revup_ctrl.c:755:16:RUC_GetPhaseFinalTorque	0	static

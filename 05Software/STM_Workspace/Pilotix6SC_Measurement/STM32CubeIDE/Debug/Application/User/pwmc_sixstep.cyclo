@@ -1,0 +1,12 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:62:13:PWMC_Init	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:96:13:PWMC_SetPhaseVoltage	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:120:13:PWMC_LoadNextStep	9
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:225:13:PWMC_TurnOnLowSides	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:265:13:PWMC_SwitchOnPWM	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:305:13:PWMC_SetADCTriggerChannel	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:331:13:PWMC_SwitchOffPWM	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:369:6:PWMC_ForceNextStep	5
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:416:10:PWMC_IsFaultOccurred	4
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:462:9:PWMC_GetLSModConfig	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:483:6:PWMC_SetLSModConfig	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/pwmc_sixstep.c:517:6:PWMC_SetQuasiSynchState	1

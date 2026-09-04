@@ -1,0 +1,17 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:69:13:BADC_Init	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:174:13:BADC_Clear	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:297:13:BADC_Stop	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:323:13:BADC_SetSamplingPoint	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:387:13:BADC_IsZcDetected	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:554:13:BADC_CalcAvrgMecSpeedUnit	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:623:13:BADC_SetDirection	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:646:6:BADC_SelectAdcChannel	40	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:223:13:BADC_Start	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:661:6:BADC_StepChangeEvent	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:714:6:BADC_CalcRevUpDemagTime	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:760:6:BADC_CalcRunDemagTime	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:807:6:BADC_SetLoopClosed	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:828:6:BADC_SetSpeedTimer	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:863:6:BADC_CheckDetectionErrors	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:902:8:BADC_SetBemfSensorlessParam	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/bemf_ADC_fdbk_sixstep.c:938:6:BADC_GetBemfSensorlessParam	4	static

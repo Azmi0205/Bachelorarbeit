@@ -1,0 +1,7 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mc_tasks_foc.c:514:13:FOC_Clear	2
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mc_tasks_foc.c:117:13:FOC_Init	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mc_tasks_foc.c:192:6:TSK_MF_StopProcessing	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mc_tasks_foc.c:558:13:FOC_InitAdditionalMethods	3
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mc_tasks_foc.c:589:13:FOC_CalcCurrRef	3
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mc_tasks_foc.c:211:13:TSK_MediumFrequencyTaskM1	30
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/Src/mc_tasks_foc.c:652:16:FOC_HighFrequencyTask	10

@@ -1,0 +1,5 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/sync_registers.c:32:9:RI_SetRegisterGlobal	17
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/sync_registers.c:166:9:RI_SetRegisterMotor1	42
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/sync_registers.c:447:9:RI_GetRegisterGlobal	23
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/sync_registers.c:618:11:RI_GetRegisterMotor1	55
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/sync_registers.c:1003:9:RI_MovString	4

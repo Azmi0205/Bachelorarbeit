@@ -1,0 +1,4 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk_sixstep.c:60:16:SPD_GetAvrgMecSpeedUnit	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk_sixstep.c:96:13:SPD_IsMecSpeedReliable	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk_sixstep.c:192:16:SPD_GetElToMecRatio	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/speed_pos_fdbk_sixstep.c:210:13:SPD_SetElToMecRatio	0	static

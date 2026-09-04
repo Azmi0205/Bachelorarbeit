@@ -1,0 +1,8 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:25:6:MC_Perf_Measure_Init	2
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:66:6:MC_Perf_Clear	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:96:6:MC_BG_Perf_Measure_Start	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:120:6:MC_Perf_Measure_Stop	5
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:182:6:MC_BG_Perf_Measure_Stop	5
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:244:9:MC_Perf_GetCPU_Load	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:277:9:MC_Perf_GetMaxCPU_Load	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_perf.c:309:9:MC_Perf_GetMinCPU_Load	4

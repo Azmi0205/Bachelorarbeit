@@ -1,0 +1,6 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks_sixstep.c:439:13:SIX_STEP_Clear	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks_sixstep.c:115:13:SIX_STEP_Init	2
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks_sixstep.c:157:6:TSK_MF_StopProcessing	1
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks_sixstep.c:172:13:TSK_MediumFrequencyTaskM1	26
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks_sixstep.c:472:13:TSK_SpeedTIM_task	8
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/mc_tasks_sixstep.c:544:6:TSK_BEMF_ZCD_Task	4

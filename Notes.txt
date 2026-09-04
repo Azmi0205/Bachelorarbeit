@@ -10,7 +10,14 @@ TODO:
 - OL3 gibt nicht wirklich Maximum Current Operation an (imag, statt idc), eher High current
 - Gleichung für idc in Theorie
 
-Abderes:
-- gestern 3.5 Stunden
-- Heute 3 Stunden
-13 uhr - 16 uhr
+Versuche:
+- PWM 30Khz -> Verkleinerung der PWM effekte
+- PI Gains berechnen lassen bei ziel-geschwindigkeit von 0rad/s
+
+- Speed (In RPM!) + CPU Load + Noise (arithmetic mean measured over 15 Seconds at 5cm) + FFT Spectrum (16384 FFT size + 0.95 Smoothing) at 
+	- High: 180rad/s -> 1719 RPM
+	- Low: 20rad/s -> 191 RPM
+		- 6SC-Low: 29.1 dB; 	High: 49.3 dB
+		- FOC-Low: 27.7 dB;	High: 50.9 dB
+
+- Step from Low to High in 300ms (also simulate)

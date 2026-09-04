@@ -1,0 +1,10 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:103:13:FF_Init	4	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:133:13:FF_Clear	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:159:13:FF_VqdffComputation	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:228:13:FF_VqdConditioning	24	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:273:13:FF_DataProcess	4	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:321:13:FF_InitFOCAdditionalMethods	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:347:13:FF_SetFFConstants	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:376:26:FF_GetFFConstants	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:405:13:FF_GetVqdff	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/PilotixFOC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/feed_forward_ctrl.c:430:13:FF_GetVqdAvPIout	8	static

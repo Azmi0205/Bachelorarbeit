@@ -1,0 +1,9 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:180:6:ASPEP_start	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:207:6:ASPEP_sendBeacon	4	static,ignoring_inline_asm
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:251:6:ASPEP_sendPing	8	static,ignoring_inline_asm
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:285:6:ASPEP_getBuffer	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:376:9:ASPEP_sendPacket	16	static,ignoring_inline_asm
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:527:6:ASPEP_HWDataTransmittedIT	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:579:10:ASPEP_RXframeProcess	40	static,ignoring_inline_asm
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:747:6:ASPEP_HWDataReceivedIT	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/aspep.c:835:6:ASPEP_HWReset	0	static

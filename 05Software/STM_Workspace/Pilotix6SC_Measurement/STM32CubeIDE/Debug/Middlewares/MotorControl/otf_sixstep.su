@@ -1,0 +1,8 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:126:13:OTF_6S_Clear	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:236:6:OTF_6S_UpdateDutyConv	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:279:6:OTF_6S_TurnOnLowSides	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:86:13:OTF_6S_Init	16	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:143:6:OTF_6S_Task	24	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:322:6:OTF_6S_Brake	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:349:6:OTF_6S_SwitchOver	0	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/otf_sixstep.c:365:10:OTF_6S_CalcSpeedReference	0	static

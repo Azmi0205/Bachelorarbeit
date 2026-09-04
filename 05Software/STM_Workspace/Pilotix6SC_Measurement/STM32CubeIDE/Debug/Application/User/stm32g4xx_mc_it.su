@@ -1,0 +1,3 @@
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/stm32g4xx_mc_it.c:63:6:ADC1_2_IRQHandler	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/stm32g4xx_mc_it.c:119:6:TIM2_IRQHandler	8	static
+C:/Users/azmib/Desktop/Bachelorarbeit/05Software/STM_Workspace/Pilotix6SC_Measurement/Src/stm32g4xx_mc_it.c:148:6:TIM1_BRK_TIM15_IRQHandler	0	static

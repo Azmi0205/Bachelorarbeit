@@ -9,3 +9,8 @@ TODO:
 - Invertierungen beim Sinusoidal Commutation modell raus
 - OL3 gibt nicht wirklich Maximum Current Operation an (imag, statt idc), eher High current
 - Gleichung für idc in Theorie
+
+Abderes:
+- gestern 3.5 Stunden
+- Heute 3 Stunden
+13 uhr - 16 uhr

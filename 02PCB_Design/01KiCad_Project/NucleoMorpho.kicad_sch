@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Motor Control Test Extension Board")
+    (date "2026-09-15")
+    (rev "1.0")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
@@ -906,6 +912,7 @@
   (no_connect (at 105.41 138.43) (uuid 7ad1d0cd-5741-46b5-8a65-84e4f3c11196))
   (no_connect (at 146.05 113.03) (uuid 83111730-66b9-4add-b881-04b133cffdad))
   (no_connect (at 105.41 100.33) (uuid 878d4075-fa54-4b47-acf3-54679f611645))
+  (no_connect (at 105.41 77.47) (uuid 881f92c5-b3ba-4f1f-8f42-bb26acc10a66))
   (no_connect (at 146.05 52.07) (uuid 8ff5a5c7-4c2a-4593-92ea-4a756830ac70))
   (no_connect (at 146.05 92.71) (uuid 94b2a642-5336-43c0-9901-d0a1d01c547e))
   (no_connect (at 105.41 102.87) (uuid 98d6b8fa-da24-4240-b727-7892f9aeea70))
@@ -954,10 +961,6 @@
   (wire (pts (xy 146.05 148.59) (xy 157.48 148.59))
     (stroke (width 0) (type default))
     (uuid 1cce2863-69bd-471d-bd69-50ded32e41a3)
-  )
-  (wire (pts (xy 104.14 77.47) (xy 105.41 77.47))
-    (stroke (width 0) (type default))
-    (uuid 1edb3496-122d-4927-839f-32a0ee7742bb)
   )
   (wire (pts (xy 93.98 125.73) (xy 95.25 125.73))
     (stroke (width 0) (type default))
@@ -1219,7 +1222,7 @@
   )
 
   (text_box "33 Ohm Resistors slow down dU/dt of MOSI and SCLK\nPlace close to driver\n\nADC Input RF filters used for ADC source impedance conditioning, Sample capacitor charge reservoir and impulse noise damping\nNOT actual analog filtering\n"
-    (at 20.32 163.83 0) (size 105.41 34.29)
+    (at 16.51 172.72 0) (size 105.41 34.29)
     (stroke (width -0.0001) (type default) (color 0 0 0 1))
     (fill (type none))
     (effects (font (size 2 2) (color 0 0 0 1)) (justify left top))
@@ -1339,10 +1342,6 @@
   (hierarchical_label "SPI_MOSI" (shape input) (at 160.02 64.77 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f434a787-6e48-4c3f-a214-7e8229703018)
-  )
-  (hierarchical_label "3.3V_EN" (shape input) (at 104.14 77.47 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f69e03d2-e5b7-44ea-a9e5-e0453b8d2c81)
   )
 
   (symbol (lib_id "Device:R") (at 153.67 87.63 90) (unit 1)
